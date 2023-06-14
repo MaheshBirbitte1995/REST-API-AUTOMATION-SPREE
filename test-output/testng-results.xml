@@ -2,16 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-14T11:23:42 IST" name="Default suite" finished-at="2023-06-14T11:23:47 IST" duration-ms="4856">
+  <suite started-at="2023-06-14T15:57:51 IST" name="Default suite" finished-at="2023-06-14T15:57:54 IST" duration-ms="3555">
     <groups>
     </groups>
-    <test started-at="2023-06-14T11:23:42 IST" name="Default test" finished-at="2023-06-14T11:23:47 IST" duration-ms="4856">
-      <class name="Complex.Postpp">
-        <test-method signature="BDD()[pri:0, instance:Complex.Postpp@32b260fa]" started-at="2023-06-14T11:23:42 IST" name="BDD" finished-at="2023-06-14T11:23:47 IST" duration-ms="4770" status="PASS">
+    <test started-at="2023-06-14T15:57:51 IST" name="Default test" finished-at="2023-06-14T15:57:54 IST" duration-ms="3555">
+      <class name="Test_cases.usertest">
+        <test-method is-config="true" signature="daTa()[pri:0, instance:Test_cases.usertest@52af26ee]" started-at="2023-06-14T15:57:51 IST" name="daTa" finished-at="2023-06-14T15:57:51 IST" duration-ms="247" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- BDD -->
-      </class> <!-- Complex.Postpp -->
+        </test-method> <!-- daTa -->
+        <test-method signature="CreatePost()[pri:0, instance:Test_cases.usertest@52af26ee]" started-at="2023-06-14T15:57:51 IST" name="CreatePost" finished-at="2023-06-14T15:57:54 IST" duration-ms="3257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePost -->
+      </class> <!-- Test_cases.usertest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

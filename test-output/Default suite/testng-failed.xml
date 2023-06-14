@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Complex.BDD_get">
+      <class name="Complex.bdd_II">
         <methods>
-          <include name="get"/>
+          <include name="A1"/>
         </methods>
-      </class> <!-- Complex.BDD_get -->
+      </class> <!-- Complex.bdd_II -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
