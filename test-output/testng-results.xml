@@ -2,20 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-14T15:57:51 IST" name="Default suite" finished-at="2023-06-14T15:57:54 IST" duration-ms="3555">
+  <suite started-at="2023-06-15T15:10:10 IST" name="Default suite" finished-at="2023-06-15T15:10:13 IST" duration-ms="3449">
     <groups>
     </groups>
-    <test started-at="2023-06-14T15:57:51 IST" name="Default test" finished-at="2023-06-14T15:57:54 IST" duration-ms="3555">
-      <class name="Test_cases.usertest">
-        <test-method is-config="true" signature="daTa()[pri:0, instance:Test_cases.usertest@52af26ee]" started-at="2023-06-14T15:57:51 IST" name="daTa" finished-at="2023-06-14T15:57:51 IST" duration-ms="247" status="PASS">
+    <test started-at="2023-06-15T15:10:10 IST" name="Default test" finished-at="2023-06-15T15:10:13 IST" duration-ms="3449">
+      <class name="Spree_token.registration">
+        <test-method signature="get()[pri:0, instance:Spree_token.registration@662b4c69]" started-at="2023-06-15T15:10:10 IST" name="get" finished-at="2023-06-15T15:10:13 IST" duration-ms="3395" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- daTa -->
-        <test-method signature="CreatePost()[pri:0, instance:Test_cases.usertest@52af26ee]" started-at="2023-06-14T15:57:51 IST" name="CreatePost" finished-at="2023-06-14T15:57:54 IST" duration-ms="3257" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreatePost -->
-      </class> <!-- Test_cases.usertest -->
+        </test-method> <!-- get -->
+      </class> <!-- Spree_token.registration -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

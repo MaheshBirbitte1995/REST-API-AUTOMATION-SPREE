@@ -34,4 +34,10 @@ public class usertest {
 	 {
 		 Response response = Endpont.createUser(userpayload).then().log().all().extract().response();
 	 }
+	 
+	 @Test
+	 public void Getget()
+	 {
+	Response response = Endpont.getUser(userpayload.getUsername()).then().log().all().extract().response();
+	 }
 }
