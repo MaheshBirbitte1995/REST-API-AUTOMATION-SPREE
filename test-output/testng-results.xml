@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-15T17:52:46 IST" name="Default suite" finished-at="2023-06-15T17:52:48 IST" duration-ms="2874">
+  <suite started-at="2023-06-16T16:08:04 IST" name="Default suite" finished-at="2023-06-16T16:08:05 IST" duration-ms="1762">
     <groups>
     </groups>
-    <test started-at="2023-06-15T17:52:46 IST" name="Default test" finished-at="2023-06-15T17:52:48 IST" duration-ms="2874">
-      <class name="Spree_token.registration">
-        <test-method signature="get()[pri:0, instance:Spree_token.registration@662b4c69]" started-at="2023-06-15T17:52:46 IST" name="get" finished-at="2023-06-15T17:52:48 IST" duration-ms="2818" status="PASS">
+    <test started-at="2023-06-16T16:08:04 IST" name="Default test" finished-at="2023-06-16T16:08:05 IST" duration-ms="1762">
+      <class name="Spree_token.regrat_get">
+        <test-method signature="grey()[pri:0, instance:Spree_token.regrat_get@71238fc2]" started-at="2023-06-16T16:08:04 IST" name="grey" finished-at="2023-06-16T16:08:05 IST" duration-ms="1715" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- get -->
-      </class> <!-- Spree_token.registration -->
+        </test-method> <!-- grey -->
+      </class> <!-- Spree_token.regrat_get -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

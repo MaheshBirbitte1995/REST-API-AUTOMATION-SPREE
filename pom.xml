@@ -29,7 +29,12 @@
     <artifactId>javafaker</artifactId>
     <version>1.0.2</version>
 </dependency>
-
+<!-- https://mvnrepository.com/artifact/org.json/json -->
+<dependency>
+<groupId>org.json</groupId>
+<artifactId>json</artifactId>
+<version>20210307</version>
+</dependency>
 <dependency>
     <groupId>org.testng</groupId>
     <artifactId>testng</artifactId>

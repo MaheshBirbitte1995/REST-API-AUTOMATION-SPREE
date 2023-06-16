@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Spree_token.registration">
+      <class name="Spree_token.regrat_get">
         <methods>
-          <include name="get"/>
+          <include name="gey"/>
         </methods>
-      </class> <!-- Spree_token.registration -->
+      </class> <!-- Spree_token.regrat_get -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
