@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-16T16:08:04 IST" name="Default suite" finished-at="2023-06-16T16:08:05 IST" duration-ms="1762">
+  <suite started-at="2023-06-19T11:30:16 IST" name="Default suite" finished-at="2023-06-19T11:30:19 IST" duration-ms="3583">
     <groups>
     </groups>
-    <test started-at="2023-06-16T16:08:04 IST" name="Default test" finished-at="2023-06-16T16:08:05 IST" duration-ms="1762">
-      <class name="Spree_token.regrat_get">
-        <test-method signature="grey()[pri:0, instance:Spree_token.regrat_get@71238fc2]" started-at="2023-06-16T16:08:04 IST" name="grey" finished-at="2023-06-16T16:08:05 IST" duration-ms="1715" status="PASS">
+    <test started-at="2023-06-19T11:30:16 IST" name="Default test" finished-at="2023-06-19T11:30:19 IST" duration-ms="3583">
+      <class name="Spree_token.one_login">
+        <test-method signature="loginApi()[pri:0, instance:Spree_token.one_login@71238fc2]" started-at="2023-06-19T11:30:16 IST" name="loginApi" finished-at="2023-06-19T11:30:19 IST" duration-ms="3526" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- grey -->
-      </class> <!-- Spree_token.regrat_get -->
+        </test-method> <!-- loginApi -->
+      </class> <!-- Spree_token.one_login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
