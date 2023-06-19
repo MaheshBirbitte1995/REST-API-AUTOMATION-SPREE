@@ -1,17 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-16T16:08:04 IST" name="Default suite" finished-at="2023-06-16T16:08:05 IST" duration-ms="1762">
+  <suite started-at="2023-06-19T17:40:34 IST" name="Default suite" finished-at="2023-06-19T17:40:39 IST" duration-ms="4809">
     <groups>
     </groups>
-    <test started-at="2023-06-16T16:08:04 IST" name="Default test" finished-at="2023-06-16T16:08:05 IST" duration-ms="1762">
-      <class name="Spree_token.regrat_get">
-        <test-method signature="grey()[pri:0, instance:Spree_token.regrat_get@71238fc2]" started-at="2023-06-16T16:08:04 IST" name="grey" finished-at="2023-06-16T16:08:05 IST" duration-ms="1715" status="PASS">
+    <test started-at="2023-06-19T17:40:34 IST" name="Default test" finished-at="2023-06-19T17:40:39 IST" duration-ms="4809">
+      <class name="Test_cases.usertest">
+        <test-method is-config="true" signature="daTa()[pri:0, instance:Test_cases.usertest@12aba8be]" started-at="2023-06-19T17:40:34 IST" name="daTa" finished-at="2023-06-19T17:40:34 IST" duration-ms="257" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- grey -->
-      </class> <!-- Spree_token.regrat_get -->
+        </test-method> <!-- daTa -->
+        <test-method signature="CreatePost()[pri:0, instance:Test_cases.usertest@12aba8be]" started-at="2023-06-19T17:40:34 IST" name="CreatePost" finished-at="2023-06-19T17:40:37 IST" duration-ms="3352" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreatePost -->
+        <test-method signature="Getget()[pri:0, instance:Test_cases.usertest@12aba8be]" started-at="2023-06-19T17:40:37 IST" name="Getget" finished-at="2023-06-19T17:40:39 IST" duration-ms="1151" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Getget -->
+      </class> <!-- Test_cases.usertest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
