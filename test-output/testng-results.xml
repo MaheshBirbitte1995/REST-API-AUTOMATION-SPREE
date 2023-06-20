@@ -1,17 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-19T11:30:16 IST" name="Default suite" finished-at="2023-06-19T11:30:19 IST" duration-ms="3583">
+  <suite started-at="2023-06-20T18:26:53 IST" name="Default suite" finished-at="2023-06-20T18:27:01 IST" duration-ms="7715">
     <groups>
     </groups>
-    <test started-at="2023-06-19T11:30:16 IST" name="Default test" finished-at="2023-06-19T11:30:19 IST" duration-ms="3583">
-      <class name="Spree_token.one_login">
-        <test-method signature="loginApi()[pri:0, instance:Spree_token.one_login@71238fc2]" started-at="2023-06-19T11:30:16 IST" name="loginApi" finished-at="2023-06-19T11:30:19 IST" duration-ms="3526" status="PASS">
+    <test started-at="2023-06-20T18:26:53 IST" name="Default test" finished-at="2023-06-20T18:27:01 IST" duration-ms="7715">
+      <class name="Authorization.one_token">
+        <test-method signature="loginApi()[pri:1, instance:Authorization.one_token@3d6f0054]" started-at="2023-06-20T18:26:54 IST" name="loginApi" finished-at="2023-06-20T18:26:57 IST" duration-ms="3571" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApi -->
-      </class> <!-- Spree_token.one_login -->
+        <test-method signature="oath()[pri:2, instance:Authorization.one_token@3d6f0054]" started-at="2023-06-20T18:26:57 IST" name="oath" finished-at="2023-06-20T18:26:58 IST" duration-ms="1212" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oath -->
+        <test-method signature="oauth()[pri:3, instance:Authorization.one_token@3d6f0054]" started-at="2023-06-20T18:26:58 IST" name="oauth" finished-at="2023-06-20T18:27:00 IST" duration-ms="1424" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- oauth -->
+        <test-method signature="Final_token()[pri:4, instance:Authorization.one_token@3d6f0054]" started-at="2023-06-20T18:27:00 IST" name="Final_token" finished-at="2023-06-20T18:27:01 IST" duration-ms="1457" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Final_token -->
+      </class> <!-- Authorization.one_token -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

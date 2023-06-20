@@ -1,4 +1,4 @@
-package Spree_token;
+package Authorization;
 
 import static io.restassured.RestAssured.given;
 
