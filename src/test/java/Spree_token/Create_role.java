@@ -2,7 +2,6 @@ package Spree_token;
 
 import static io.restassured.RestAssured.given;
 
-import org.json.simple.JSONObject;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
@@ -12,23 +11,9 @@ import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import pojo.storepolo;
-public class registration {
-	
-	
-	
-	
-	
-	
-	Faker faker;
-	
-	 storepolo userpayload;
-	 
-	 @BeforeClass
-	 public void date ()
-	 {
+public class Create_role {
 
-			
-	 }
+	
 	@Test
 	public void get()
 	{
@@ -37,27 +22,23 @@ public class registration {
 		RestAssured.baseURI = "https://devspree.uncode.io";
 	                 
 
-		 String   bearerToken = "ySi-iF2MuE7x44r8HrEhLhvqkkxjY7C6sxUKUSOGIFo";
-		 JSONObject data = new JSONObject();
-
-		  data.put("store_id", 23);
+		 String   bearerToken = "b5hy4Jzfy-V4rf_hUrjeqlmLuwlKGg-g3_7VxQiKHkA";
+		
 		 
-		  JSONObject detail = new JSONObject();
-		    data.put("role", detail);
-		    
-		    detail.put("name", "sai");
-		
-		
-		    RestAssured
-	        .given()
+	Response rr =
+	        given()
 	               .contentType(ContentType.JSON)
 	               .header("Authorization", "Bearer " + bearerToken)
-	               .body(data.toString())
-	               .body(detail.toString())
+	             .body("{\"store_id\":23\r\n"
+	             		+ ",\r\n"
+	             		+ "  \"role\": {\r\n"
+	             		+ "    \"name\": \"Saigdasdsaurkjkallv\"\r\n"
+	             		+ "  }\r\n"
+	             		+ "}")
 	               .when()
 	               .post("/api/v2/platform/roles").then()
 	               
-	               .log().all();
+	               .log().all().extract().response();
 	
 		      
 				
