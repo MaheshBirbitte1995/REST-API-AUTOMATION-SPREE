@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Authorization.one_registration">
+      <class name="Authorization.Update_name_of_application_keys">
         <methods>
-          <include name="trial"/>
+          <include name="application_keys"/>
         </methods>
-      </class> <!-- Authorization.one_registration -->
+      </class> <!-- Authorization.Update_name_of_application_keys -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
