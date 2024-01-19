@@ -2,7 +2,7 @@ package pojo;
 
 public class user {
 	int id;
-	   public int getId() {
+	public int getId() {
 		return id;
 	}
 	public void setId(int id) {
@@ -51,10 +51,10 @@ public class user {
 		this.userStatus = userStatus;
 	}
 	String username ;
-	  String firstName;
+	String firstName;
 	String   lastName;
 	String  email;
-	 String password;
+	String password;
 	String  phone;
 	String  userStatus;
 

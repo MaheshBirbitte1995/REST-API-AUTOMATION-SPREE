@@ -36,13 +36,6 @@ public class access_token_to_hit_the_platform_API {
 
 				.when().post("/spree_oauth/token").then().log().all().extract().response();
 
-		//Response response = res.request(Method.POST);
-
-
-
-
-
-
 	}
 
 

@@ -26,7 +26,7 @@ public class one_token {
 
 
 		Response r = given().contentType(ContentType.JSON) .body("{\r\n" +
-				"    \"user\":\r\n" + "     {\r\n" +
+		 		"    \"user\":\r\n" + "     {\r\n" +
 				"        \"email\": \"User20057"+RandomStringGenerator.generateRandomString(8)+"@gmail.com\",\r\n" +
 				"        \"password\": \"123456\",\r\n" +
 				"        \"password_confirmation\": \"123456\",\r\n" +
